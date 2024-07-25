@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<title>
+Admin Dashboard
+</title>
+<link rel="stylesheet" type="text/css" href="my.css">
+</head>
+<body>
+        <div id="main">
+                <img src=".\logo.jpeg" width="200" height="112" border="0" align="left">
+                <center><h1>GALGOTIAS UNIVERSITY</center>
+                
+
+                </center>
+                </div>
+
+        <div id="navigation">
+            <br><br><br><br><br><br><br><br>
+        </div>
+
+        <div id="form1">
+            <p align ="right">
+                <button type="button" onclick="myFunctions()">Logout</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+            &nbsp;&nbsp;&nbsp;<select> 
+                <option value="Course">Course</option>
+                <option value="MCA">MCA</option>
+                <option value="MSC">MSC</option>
+        </select>
+        
+            <select>
+                <option value="Sem">Semester</option> 
+                <option value="I">I</option>
+                <option value="II">II</option>
+                <option value="III">III</option>
+                <option value="IV">IV</option>
+                <option value="V">V</option>
+                <option value="VI">VI</option>
+        </select>
+                &nbsp;&nbsp;&nbsp;<button type="button" style=background-color:darkgoldenrod;>View Class</button><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style=background-color:aqua; onclick="window.location.href = 'addfac.html'">Add Faculty</button><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style=background-color:aqua;>View Faculty</button><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style=background-color:aqua;>Edit Faculty</button><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style=background-color:cornflowerblue; onclick="window.location.href = 'addstud.html'">Add Student</button><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style=background-color:cornflowerblue;>View Student</button><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style=background-color:cornflowerblue;>Edit Student</button><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style=background-color:aqua; onclick="window.location.href = 'scanner.html'">View Scanner</button><br><br>
+
+                 
+        </div>   
+        <script>
+            function myFunctions() 
+            {
+                window.location.href = 'admin.html';
+            }
+        </script>
+        
+</html>
